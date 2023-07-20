@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <math.h>
 #include "main.h"
 /**
  * main - finds and prints the largest prime factor
@@ -29,6 +30,6 @@ int main(void)
 	}
 	if (n > 2)
 		max = n;
-	printf("%d\n", max);
+	printf("%ld\n", max);
 	return (0);
 }
